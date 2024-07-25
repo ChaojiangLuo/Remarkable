@@ -26,8 +26,24 @@ Remarkable has many features including:
 Check out the [homepage](https://remarkableapp.github.io/linux.html) for more details and [screenshots](https://remarkableapp.github.io/linux/screenshots.html).
 
 ### Dependencies
+#### python & GTK:
+- python3-gi,
+- gir1.2-glib-2.0,
+- gir1.2-gtk-3.0,
+- python3-markdown,
+- python3-bs4,
+- yelp,
+- wkhtmltopdf,
+- gir1.2-webkit2-4.0 | gir1.2-webkit-3.0,
+- gir1.2-gtksource-3.0,
 
-**!!!TODO!!!**
+#### Qt:
+- libqt5webkit5,
+- libqt5qml5,
+- libqt5quick5,
+- libqt5sensors5,
+- libqt5webchannel5,
+- libqt5positioning5,
 
 ### Keyboard Shortcuts
 

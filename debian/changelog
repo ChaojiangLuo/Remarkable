@@ -120,5 +120,6 @@ remarkable (0.80) trusty; urgency=medium
 
 remarkable (0.7) trusty; urgency=medium
 
+  * init
 
  -- Jamie McGowan <jamiemcgowan.dev@gmail.com>  Sat, 19 Jul 2014 16:57:24 +0100
