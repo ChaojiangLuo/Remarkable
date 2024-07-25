@@ -1,3 +1,10 @@
+remarkable (1.88) unstable; urgency=medium
+
+  * Add debian build for unstable
+  * Support gir1.2-webkit2-4.0
+
+ -- Chaojiang Luo <chaojiangluo@163.com>  Thu, 25 Jul 2024 21:13:39 +0800
+
 remarkable (1.87) xenial; urgency=medium
 
   * Image paste support, GtkSource, line numbers, markdown syntax 
