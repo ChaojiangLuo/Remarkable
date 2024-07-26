@@ -1,0 +1,158 @@
+/* 全局背景颜色 */
+body, table tr {
+    background-color: #fff;
+}
+
+/* 表格单元格和表头的样式 */
+table tr td, table tr th {
+    border: 1px solid #ccc; /* 边框 */
+    text-align: left; /* 文本左对齐 */
+    padding: 6px 13px; /* 内边距 */
+    margin: 0; /* 外边距 */
+}
+
+/* 代码块和表格的内边距 */
+pre code, table, table tr {
+    padding: 0;
+}
+
+/* 水平分隔线和代码块的背景颜色 */
+hr, pre code {
+    background: 0 0;
+}
+
+/* 主体文本样式 */
+body {
+    font: 16px Helvetica, Arial, sans-serif; /* 字体 */
+    line-height: 1.4; /* 行高 */
+    color: #333; /* 文本颜色 */
+    word-wrap: break-word; /* 自动换行 */
+    padding: 10px 15px; /* 内边距 */
+}
+
+/* 加粗文本和表头字体加粗 */
+strong, table tr th {
+    font-weight: 700;
+}
+
+/* 标题样式 */
+h1 {
+    font-size: 2em; /* 字体大小 */
+    margin: .67em 0; /* 外边距 */
+    text-align: center; /* 文本居中 */
+}
+
+h2 {
+    font-size: 1.75em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+h4 {
+    font-size: 1.25em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700; /* 字体加粗 */
+    position: relative; /* 相对定位 */
+    margin-top: 15px; /* 上外边距 */
+    margin-bottom: 15px; /* 下外边距 */
+    line-height: 1.1; /* 行高 */
+}
+
+/* 一级和二级标题的下边框 */
+h1, h2 {
+    border-bottom: 1px solid #eee;
+}
+
+/* 水平分隔线样式 */
+hr {
+    height: 0; /* 高度 */
+    margin: 15px 0; /* 外边距 */
+    overflow: hidden; /* 溢出隐藏 */
+    border: 0; /* 边框 */
+    border-bottom: 1px solid #ddd; /* 下边框 */
+}
+
+/* 链接样式 */
+a {
+    color: #4183C4; /* 链接颜色 */
+}
+
+/* 缺失链接的颜色 */
+a.absent {
+    color: #c00;
+}
+
+/* 列表样式 */
+ol, ul {
+    padding-left: 15px; /* 左内边距 */
+    margin-left: 5px; /* 左外边距 */
+}
+
+/* 有序列表的项目符号样式 */
+ol {
+    list-style-type: lower-roman;
+}
+
+/* 表格行的上边框 */
+table tr {
+    border-top: 1px solid #ccc;
+    margin: 0;
+}
+
+/* 偶数行的背景颜色 */
+table tr:nth-child(2n) {
+    background-color: #aaa;
+}
+
+/* 表格单元格和表头第一个子元素的上外边距 */
+table tr td :first-child, table tr th :first-child {
+    margin-top: 0;
+}
+
+/* 表格单元格和表头最后一个子元素的下外边距 */
+table tr td:last-child, table tr th :last-child {
+    margin-bottom: 0;
+}
+
+/* 图片最大宽度 */
+img {
+    max-width: 200%;
+}
+
+/* 引用块样式 */
+blockquote {
+    padding: 0 15px; /* 内边距 */
+    border-left: 4px solid #ccc; /* 左边框 */
+}
+
+/* 内联代码样式 */
+code, tt {
+    margin: 0 2px; /* 外边距 */
+    padding: 0 5px; /* 内边距 */
+    white-space: nowrap; /* 不换行 */
+    border: 1px solid #eaeaea; /* 边框 */
+    background-color: #f8f8f8; /* 背景颜色 */
+    border-radius: 3px; /* 圆角 */
+}
+
+/* 代码块样式 */
+pre code {
+    margin: 0; /* 外边距 */
+    white-space: pre; /* 保留空白符 */
+    border: none; /* 无边框 */
+}
+
+/* 高亮代码块和代码块的样式 */
+.highlight pre, pre {
+    background-color: #f8f8f8; /* 背景颜色 */
+    border: 1px solid #ccc; /* 边框 */
+    font-size: 16px; /* 字体大小 */
+    line-height: 19px; /* 行高 */
+    overflow: auto; /* 溢出滚动 */
+    padding: 6px 10px; /* 内边距 */
+    border-radius: 3px; /* 圆角 */
+}
